@@ -12,7 +12,6 @@ document.getElementById('add-money').addEventListener('click',function(event){
         if(convertedPin==1111){
             total = convertedamount + convertedmoney;
             document.getElementById("money").innerText=total;
-            console.log(total);
         }
         else{
             alert("Enter valid pin");
